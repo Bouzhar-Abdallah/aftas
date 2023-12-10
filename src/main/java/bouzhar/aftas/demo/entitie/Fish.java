@@ -1,10 +1,10 @@
 package bouzhar.aftas.demo.entitie;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
+@Data
 public class Fish {
 
     @Id
