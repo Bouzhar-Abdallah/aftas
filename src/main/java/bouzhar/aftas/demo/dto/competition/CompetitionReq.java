@@ -14,18 +14,15 @@ public class CompetitionReq {
     private String code;
 
     @JsonFormat(pattern = "dd-MM-yyyy")
-    @NotBlank(message = "shouldn't be blank")
     private LocalDate date;
 
     @JsonFormat(pattern = "HH:mm")
-    @NotBlank(message = "shouldn't be blank")
     private LocalTime startTime;
 
     @JsonFormat(pattern = "HH:mm")
-    @NotBlank(message = "shouldn't be blank")
+
     private LocalTime endTime;
 
-    @NotBlank(message = "shouldn't be blank")
     private Integer numberOfParticipants;
 
     @NotBlank(message = "shouldn't be blank")
