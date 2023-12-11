@@ -1,4 +1,4 @@
-package bouzhar.aftas.demo.entitie;
+package bouzhar.aftas.demo.entity;
 
 import bouzhar.aftas.demo.enums.IdentityDocumentType;
 import jakarta.persistence.*;

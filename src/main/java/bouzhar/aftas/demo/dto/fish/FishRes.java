@@ -1,6 +1,6 @@
 package bouzhar.aftas.demo.dto.fish;
 
-import bouzhar.aftas.demo.entitie.Level;
+import bouzhar.aftas.demo.entity.Level;
 import lombok.Data;
 
 @Data

@@ -2,8 +2,8 @@ package bouzhar.aftas.demo.service;
 
 import bouzhar.aftas.demo.dto.fish.FishReq;
 import bouzhar.aftas.demo.dto.fish.FishRes;
-import bouzhar.aftas.demo.entitie.Fish;
-import bouzhar.aftas.demo.entitie.Level;
+import bouzhar.aftas.demo.entity.Fish;
+import bouzhar.aftas.demo.entity.Level;
 import bouzhar.aftas.demo.exceptions.fish.FishNotFoundException;
 import bouzhar.aftas.demo.exceptions.level.LevelNotFoundException;
 import bouzhar.aftas.demo.repository.FishRepository;

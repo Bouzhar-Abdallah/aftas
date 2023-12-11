@@ -1,7 +1,6 @@
 package bouzhar.aftas.demo.repository;
 
-import bouzhar.aftas.demo.dto.level.LevelSimple;
-import bouzhar.aftas.demo.entitie.Level;
+import bouzhar.aftas.demo.entity.Level;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

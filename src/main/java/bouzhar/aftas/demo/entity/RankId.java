@@ -1,4 +1,4 @@
-package bouzhar.aftas.demo.entitie;
+package bouzhar.aftas.demo.entity;
 
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.ManyToOne;

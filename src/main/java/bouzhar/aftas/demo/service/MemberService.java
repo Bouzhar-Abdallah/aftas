@@ -2,7 +2,7 @@ package bouzhar.aftas.demo.service;
 
 import bouzhar.aftas.demo.dto.member.MemberReq;
 import bouzhar.aftas.demo.dto.member.MemberRes;
-import bouzhar.aftas.demo.entitie.Member;
+import bouzhar.aftas.demo.entity.Member;
 import bouzhar.aftas.demo.exceptions.member.MemberNotFoundException;
 import bouzhar.aftas.demo.repository.MemberRepository;
 import lombok.AllArgsConstructor;

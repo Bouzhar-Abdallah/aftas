@@ -1,12 +1,15 @@
-package bouzhar.aftas.demo.entitie;
+package bouzhar.aftas.demo.entity;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Pattern;
+import lombok.Data;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
 
 @Entity
+@Data
 public class Competition {
     @Id
     private String code;

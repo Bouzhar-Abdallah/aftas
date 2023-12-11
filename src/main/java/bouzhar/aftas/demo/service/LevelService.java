@@ -1,7 +1,7 @@
 package bouzhar.aftas.demo.service;
 
 import bouzhar.aftas.demo.dto.level.LevelSimple;
-import bouzhar.aftas.demo.entitie.Level;
+import bouzhar.aftas.demo.entity.Level;
 import bouzhar.aftas.demo.exceptions.level.LevelAlreadyExistsException;
 import bouzhar.aftas.demo.exceptions.level.LevelNotFoundException;
 import bouzhar.aftas.demo.exceptions.level.LevelPointsConstraintsException;

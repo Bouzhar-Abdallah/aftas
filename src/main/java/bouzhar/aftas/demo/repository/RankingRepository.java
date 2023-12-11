@@ -1,7 +1,7 @@
 package bouzhar.aftas.demo.repository;
 
-import bouzhar.aftas.demo.entitie.RankId;
-import bouzhar.aftas.demo.entitie.Ranking;
+import bouzhar.aftas.demo.entity.RankId;
+import bouzhar.aftas.demo.entity.Ranking;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

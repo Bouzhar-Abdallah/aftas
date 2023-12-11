@@ -1,6 +1,6 @@
 package bouzhar.aftas.demo.repository;
 
-import bouzhar.aftas.demo.entitie.Competition;
+import bouzhar.aftas.demo.entity.Competition;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
