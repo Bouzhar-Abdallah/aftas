@@ -5,10 +5,11 @@ import bouzhar.aftas.demo.dto.ranking.RankingSimple;
 import bouzhar.aftas.demo.enums.IdentityDocumentType;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import lombok.Data;
 
 import java.time.LocalDate;
 import java.util.List;
-
+@Data
 public class MemberRes {
     private Integer num;
 

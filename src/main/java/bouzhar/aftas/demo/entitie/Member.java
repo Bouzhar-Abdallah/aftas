@@ -2,13 +2,16 @@ package bouzhar.aftas.demo.entitie;
 
 import bouzhar.aftas.demo.enums.IdentityDocumentType;
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.time.LocalDate;
 import java.util.List;
 
 @Entity
+@Data
 public class Member {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer num;
 
     private String name;
