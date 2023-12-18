@@ -3,6 +3,7 @@ package bouzhar.aftas.demo.entity;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
@@ -11,7 +12,7 @@ import java.util.Objects;
 @Embeddable
 @NoArgsConstructor
 @AllArgsConstructor
-
+@Data
 public class RankId implements Serializable {
 
     @ManyToOne

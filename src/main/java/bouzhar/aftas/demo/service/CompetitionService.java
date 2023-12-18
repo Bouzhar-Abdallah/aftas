@@ -31,7 +31,7 @@ public class CompetitionService {
     }
 
     public List<CompetitionReq> getAllCompetitions() {
-        return competitionRepository.findAll().stream()
+        return competitionRepository.getAllByOrderByDateAscStartTimeAsc().stream()
                 .map(
                         competition -> modelMapper.map(competition,CompetitionReq.class)
                 ).toList();

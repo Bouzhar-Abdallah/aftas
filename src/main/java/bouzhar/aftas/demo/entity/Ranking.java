@@ -1,9 +1,10 @@
 package bouzhar.aftas.demo.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
-
+@Data
 public class Ranking {
     @EmbeddedId
     private RankId rankId;

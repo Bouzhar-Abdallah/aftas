@@ -6,6 +6,6 @@ public class MemberNotFoundException extends MemberException {
     }
 
     public MemberNotFoundException(String message) {
-        super(message);
+        super("member ".concat(message).concat(" not found"));
     }
 }

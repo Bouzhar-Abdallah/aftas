@@ -5,9 +5,7 @@ import bouzhar.aftas.demo.dto.member.MemberSimple;
 import lombok.Data;
 
 @Data
-public class RankingRes {
-    private Integer rank;
-    private Integer score;
-    private CompetitionSimple competition;
-    private MemberSimple member;
+public class ParticipationsReq {
+    private String competition_code;
+    private Integer member_num;
 }
